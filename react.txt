@@ -1,0 +1,25 @@
+//- Component - (17 - 05 - 2024)
+
+1. component name must start with capital letter. (ex :- App, Comp, Login, Signup, etc.)
+
+                     function FunctionalComponent () {                              const FunctionalComponent = () => {
+                        return <h1> Normal functional component </h1>                        return <h1> Normal functional component </h1>  
+                     }                                                                    }
+
+2. Every tag should be closed either normal closing or self closing
+
+              Normal Closing :- <FunctionalComponnt>.........</FunctionalComponnt>
+                Self Closing :- <FunctionalComponnt/>
+
+3. Whatever component we will use we must import it first. ( import FunctionalComponent from './functionalComponent.js )
+
+4. Class Component :-           class CLassComponent extends component {
+                                           render() {
+                                                return <h1> Normal functional component </h1>  
+                                           }
+                                }
+
+                               *** NOTE :- For using class component we must import React and component.
+                                            ---  import React, {Component} from 'react'; ---
+
+5. 
